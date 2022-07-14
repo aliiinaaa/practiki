@@ -1,0 +1,55 @@
+.logo{
+display: flex;
+justify-content: center;
+text-align: center;
+background: #FFE138;
+height: 160px;
+}
+h1{
+font-family: 'Times New Roman';
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 57px;
+text-transform: uppercase;
+
+color: #000000;
+}
+.container{
+display: flex;
+justify-content: space-around;
+align-content: center;
+flex-wrap: wrap;
+    
+}
+
+
+.illustration>img{
+width: 400px;
+}
+.illustration{
+    border: 1px solid #000000;
+}
+.illustration>p{
+    width: 400px;
+}
+.mcs{
+display: flex;
+justify-content: center;
+text-align: center;
+background: #FFE138;
+height: 160px;
+
+}
+h2{
+font-family: 'Times New Roman';
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 57px;
+
+color: #000000;
+
+
+
+}
