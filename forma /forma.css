@@ -1,0 +1,73 @@
+.menu{
+display: flex;
+flex-direction: column;
+background: #F8BFC7;
+}
+li{
+ display :inline;
+padding-right: 50px;
+font-family: 'Helvetica';
+font-weight: 700;
+font-size: 20px;
+color: #000000;
+padding-top: 33px;
+padding-bottom: 33px;
+}
+.ontheway{
+    
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-color: #336fd1;
+    height: 200px;
+}
+h1{
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 57px;
+
+color: #FEB700;
+}
+.form{
+    display: flex;
+    text-align: center;
+    width: 300px;
+    height: 362px;
+    background: #F8BFC7;
+border: 3px solid #FFFFFF;
+border-radius: 20px;
+
+}
+.buttom{
+background: #FEB700;
+border: 3px solid #FFFFFF;
+border-radius: 30px;
+}
+.container{
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    width: 1440px;
+    height: 643px;
+    background-image: url(./background.svg);
+    background-size: contain;
+
+}
+    
+.secretGift{
+display: flex;
+justify-content: space-between;
+background: #F8BFC7;
+}
+h3{
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 23px;
+line-height: 23px;
+padding-right: 50px;
+padding-left: 50px;
+color: #FFFFFF;
+}
