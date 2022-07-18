@@ -3,7 +3,6 @@ display: flex;
 justify-content: center;
 text-align: center;
 background: #FFE138;
-height: 160px;
 }
 h1{
 font-family: 'Times New Roman';
@@ -19,27 +18,46 @@ color: #000000;
 display: flex;
 justify-content: space-around;
 align-content: center;
-flex-wrap: wrap;
+padding:70px 70px 70px 70px;
     
 }
 
-
-.illustration>img{
-width: 400px;
-}
 .illustration{
+    width: 25%;
     border: 1px solid #000000;
 }
+.illustration>img{
+    width: 100%;
+   height: 600px;
+   object-fit: cover
+  }
 .illustration>p{
-    width: 400px;
+font-family: 'Times New Roman';
+font-style: normal;
+font-size: 20px;
+line-height: 23px;
+padding-top:33px;
+padding-left: 33px;
+padding-bottom: 33px;
+padding-right: 33px;
+color: #000000;
 }
+h4{
+font-family: 'Times New Roman';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 23px;
+padding-left: 33px;
+color: #000000;
+
+}
+
 .mcs{
 display: flex;
 justify-content: center;
 text-align: center;
 background: #FFE138;
-height: 160px;
-
 }
 h2{
 font-family: 'Times New Roman';
@@ -47,9 +65,6 @@ font-style: normal;
 font-weight: 400;
 font-size: 50px;
 line-height: 57px;
-
 color: #000000;
-
-
 
 }
