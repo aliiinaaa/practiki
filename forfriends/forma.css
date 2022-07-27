@@ -1,3 +1,6 @@
+.body{
+    margin:0;
+}
 .menu{
 display: flex;
 flex-direction: column;
@@ -33,7 +36,6 @@ color: #FEB700;
 .form{
 display: flex;
 align-content: center;
-height: 300px;
 border: 3px solid #FFFFFF;
 border-radius: 20px;
 font-family: 'Helvetica';
@@ -73,8 +75,6 @@ border-radius: 30px;
     display: flex;
     justify-content: flex-start;
     align-content: center;
-    width: 1440px;
-    height: 643px;
     background-image: url(./background.svg);
     background-size: cover;
 
