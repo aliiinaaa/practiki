@@ -1,61 +1,127 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8"/>
-    <title>For Friends</title>
-    <link rel="stylesheet" href="forma.css"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1">		
-  </head>
-  <body>
-    <header class="menu">
-      <ul>
-        <li> Посылка </li>
-        <li> Упаковка</li>
-        <li> Подписка </li>
-        <li> Меню </li>
-      </ul>
-      </header>
-    <div class="container">
-      <div class="form">
-  <form action="" method="post">
-      <div>
-          <label for="full-name">Имя</label> </br>
-          <input id="full-name" name="full-name" type="text"
-          placeholder="Алина"/>
-        </div>
-        <div>
-          <label for="city">Город</label> </br>
-          <input id="city" name="city" type="text"
-          placeholder="Москва"/>
-        </div>
-        <div>
-          <label for="full-item">Подарок</label> </br>
-          <input id="full-item" name="full-item" type="text"
-          placeholder="Книга в твëрдом переплёте"/>
-        </div>
-        <div>
-          <label for="email">Почта</label> </br>
-          <input id="email"
-            name="email"
-            type="email"
-            placeholder="daykiller@gmail.com"/>
-      </div>
-      <div class="send">
-        <button>ОТПРАВИТЬ</button>
-        </div>
-        </form>
-        </div>
-      </div>
-    </form>
-  </div>
-    </div>
-    <div class="ontheway">
-      <h1> BАШ ПОДАРОК УЖЕ В ПУТИ!</h1>
-    </div>
-  <footer>
-  <div class="secretGift">
-<h3> Cекретные подарки для друзей</h3>
-<h3> Назaд</h3>
-</div>
-  </footer>
-  </html>
+.body{
+    margin:0;
+}
+.menu{
+display: flex;
+flex-direction: column;
+background: #F8BFC7;
+}
+li{
+ display :inline;
+padding-right: 50px;
+font-family: 'Helvetica';
+font-weight: 700;
+font-size: 20px;
+color: #000000;
+padding-top: 33px;
+padding-bottom: 33px;
+}
+.ontheway{
+    
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-color: #336fd1;
+    height: 200px;
+}
+h1{
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 57px;
+
+color: #FEB700;
+}
+.form{
+display: flex;
+align-content: center;
+border: 3px solid #FFFFFF;
+border-radius: 20px;
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 23px;
+background-color: #F8BFC7;
+color: #FFFFFF;
+padding-top:30px;
+padding-left: 33px;
+padding-right: 33px;
+padding-bottom: 30px;
+margin: 90px;
+}
+.send{
+display: flex;
+justify-content: center;
+margin-top: 65px;
+background: #FEB700;
+border: 3px solid #FFFFFF;
+border-radius: 30px;
+}
+.send button{
+    font-size: 16px;
+    font-weight: bold;
+    background: #FEB700;
+    color: #FFFFFF;
+
+    border: none;
+    border-radius: 30px;
+    
+    cursor: pointer;
+}
+
+.container{
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    background-image: url(./background.svg);
+    background-size: cover;
+
+}
+.form label[for="full-name"]
+{
+    padding-top: 7px;
+}
+.form label[for="city"]
+{
+    padding-top: 7px;
+}
+.form label[for="full-item"]
+{
+    padding-top: 7px;
+}
+.form label[for="email"]
+{
+    padding-top: 7px;
+}
+.form  input[type="text"],
+.form input[type="email"] {
+
+color: #FFFFFF;
+background-color:#F8BFC7;
+border: none;
+border-bottom: 1px solid #FFFFFF;
+  
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 20px;
+  box-shadow: none; 
+}
+input::-webkit-input-placeholder { color: #FFFFFF; }
+.secretGift{
+display: flex;
+justify-content: space-between;
+background: #F8BFC7;
+}
+h3{
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 23px;
+line-height: 23px;
+padding-right: 50px;
+padding-left: 50px;
+color: #FFFFFF;
+}
